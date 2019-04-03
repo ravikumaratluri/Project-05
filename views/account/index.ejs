@@ -1,0 +1,24 @@
+<br>
+<br>
+<div class="container-fluid">
+  <div class=row>
+    <div class="col col-md-12">
+      <!-- <a href="customer/create" class="btn btn-primary new">
+        Create a new customer
+      </a> -->
+
+      <h2>Enter login Id</h2>
+      <br>
+      <input id="numId" type="number"  placeholder="user login" required>
+      <a id="demo" href="/index/details/" onclick="myFunction()" class="btn btn-info">Get Account Number</a>
+      
+    </div>
+  </div>
+</div>
+<script>
+function myFunction() {
+  console.log("adad");
+  let x = document.getElementById("numId").value;
+  document.getElementById('demo').setAttribute('href',document.getElementById('demo').getAttribute('href')+x);
+}
+  </script>

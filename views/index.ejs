@@ -1,0 +1,26 @@
+<div class="container-fluid">
+  <div class=row>
+    <div class="col col-md-12">
+      <h1>Welcome to Northwest Bank</h1>
+      <br>
+      <p>Northwest Bank is newly emerged bank in maryville.
+          Now you can deposit and withdraw with no transaction charges with Northwest Bank.
+        Also as brand new branch in maryville, the bank offers no charges on e-statements for student Accounts.
+      All Nortwest Missouri State University students are encouraged toutilise this facility</p>
+      <hr>
+      <h3>Enter Account Number to see the Details</h3>
+      <input id="numId" type="number"  placeholder="user login" required>
+      <a id="demo" href="/user/details/" onclick="myFunction()" class="btn btn-info">Get User Details</a>
+
+      
+      
+    </div>
+  </div>
+</div>
+<script>
+    function myFunction() {
+      console.log("adad");
+      let x = document.getElementById("numId").value;
+      document.getElementById('demo').setAttribute('href',document.getElementById('demo').getAttribute('href')+x);
+    }
+      </script>

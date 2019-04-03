@@ -1,0 +1,39 @@
+<div class="container-fluid">
+  <h2>User details</h2>
+  <div class=row>
+    <div class="col col-md-6">
+
+      <br> Account Number:
+      <%=  user.accountNumber %>
+    </div>
+      <div class="col col-md-6">
+          <br> <img src="https://img.icons8.com/dotty/40/000000/google-mobile.png"> <%=user.contact%>
+    </div>
+  </div>
+  <div class=row>
+      <div class="col col-md-6">
+          <br> Name: <%=user.family%> , 
+      <%=user.firstname%>
+      </div>
+      <div class="col col-md-6">
+          <br> <img src="https://img.icons8.com/dotty/40/000000/new-post.png">  - 
+          <%=user.email%>
+      </div>
+  </div>
+  <div class=row>
+    <div class="col col-md-12">
+        <br> Address: <%=user.street1%>, <%=user.street2%>, 
+       <%=user.state%>, <%=user.country%>, <%=user.zipcode%>
+      </div>
+
+    <!-- <form method="get" action="/user">
+        <input type="submit" value="Return to list" class="btn btn-caution" />
+      </form>
+
+      <form method="get" action="/account/details/<%=  user._id %>">
+        <input type="submit" value="Account Details" class="btn btn-caution" />
+      </form> -->
+
+
+  </div>
+</div>

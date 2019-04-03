@@ -1,0 +1,26 @@
+<br>
+<br>
+<div class="container-fluid">
+  <div class=row>
+    <div class="col col-md-12">
+
+      <h2>Account Category</h2>
+      <br>
+      <br> Name: <%=  category.accountname%>
+      <br> Account Number: <%=category.accountnumber%>
+      <br> Credit Card Number: <%=category.creditcardnumber%>
+      <br> Debit Card Number: <%=category.debitcardnumber%>
+      <br> Account Type: <%=category.accounttype%>
+      <hr>
+
+      <form method="get" action="/user">
+        <input type="submit" value="Return to list" class="btn btn-caution" />
+      </form>
+
+      <form method="get" action="/transaction/details/<%=category.userId%>">
+        <input type="submit" value="Transcation" class="btn btn-caution" />
+      </form>
+
+    </div>
+  </div>
+</div>

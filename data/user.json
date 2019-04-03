@@ -1,0 +1,62 @@
+[
+    {
+      "_id": 111,
+      "accountNumber": 5000000111,
+      "contact" : "+1 (660) 528 0971",
+      "email": "s534734@nwmissouri.edu",
+      "firstname": "Ravi Kumar",
+      "family": "Atluri",
+      "gender": "male",
+      "street1": "#94 Horizons",
+      "street2": "1500 N University Drive",
+      "city": "Maryville",
+      "state": "MO",
+      "zip": 64468,
+      "country": "USA"
+    },
+    {
+        "_id": 112,
+        "accountNumber": 5000000112,
+        "contact" : "+1 (660) 528 0971",
+        "email": "s534637@nwmissouri.edu",
+        "firstname": "Midhun",
+        "family": "Kandakatla",
+        "gender": "male",
+        "street1": "#94 Horizons",
+        "street2": "1500 N University Drive",
+        "city": "Maryville",
+        "state": "MO",
+        "zip": 64468,
+        "country": "USA"
+    },
+    {
+        "_id": 113,
+        "accountNumber": 5000000113,
+        "contact" : "+1 (660) 528 0971",
+        "email": "s534848@nwmissouri.edu",
+        "firstname": "Varun Goud",
+        "family": "Pulipalpula",
+        "gender": "male",
+        "street1": "#63 Horizons",
+        "street2": "1500 N University Drive",
+        "city": "Maryville",
+        "state": "MO",
+        "zip": 64468,
+        "country": "USA"
+    },
+    {
+        "_id": 114,
+        "accountNumber": 5000000114,
+        "contact" : "+1 (660) 528 0971",
+        "email": "s534801@nwmissouri.edu",
+        "firstname": "Bala Gopi Krishna",
+        "family": "Sabbineni",
+        "gender": "male",
+        "street1": "#63 Horizons",
+        "street2": "1500 N University Drive",
+        "city": "Maryville",
+        "state": "MO",
+        "zip": 64468,
+        "country": "USA"
+    }
+  ]

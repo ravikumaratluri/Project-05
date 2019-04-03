@@ -1,0 +1,39 @@
+[
+    {
+      "_id": 1,
+      "accounttype": "SAVINGS",
+      "creditcardnumber": "0000-1111-0000-1111",
+      "debitcardnumber": "1111-0000-1111-0000",
+      "accountnumber": "1234567890",
+      "accountname": "Ravi Kumar Atluri",
+      "userId": 111
+      
+    },
+    {
+        "_id": 2,
+        "accounttype": "CHECKINGS",
+        "creditcardnumber": "1111-2222-1111-2222",
+        "debitcardnumber": "2222-1111-2222-1111",
+        "accountnumber": "0123456789",
+        "accountname": "Midhun Kandakatla",
+        "userId": 112
+    },
+    {
+        "_id": 3,
+        "accounttype": "LOAN",
+        "creditcardnumber": "2222-3333-2222-3333",
+        "debitcardnumber": "3333-2222-3333-2222",
+        "accountnumber": "9876543210",
+        "accountname": "Varun Goud Pulipalpula",
+        "userId": 113
+    },
+    {
+        "_id": 4,
+        "accounttype": "STUDENT ACCOUNT",
+        "creditcardnumber": "3333-4444-3333-4444",
+        "debitcardnumber": "4444-3333-4444-3333",
+        "accountnumber": "1111222200",
+        "accountname": "Bala Gopi Krishna Sabbineni",
+        "userId": 114
+    }
+  ]
